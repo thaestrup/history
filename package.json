@@ -27,6 +27,7 @@
     "clean": "git clean -fdX .",
     "release": "node ./tools/release.js",
     "lint": "eslint modules",
+    "postinstall": "node ./tools/build.js",
     "test": "karma start --single-run"
   },
   "dependencies": {
